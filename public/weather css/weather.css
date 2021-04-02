@@ -1,0 +1,169 @@
+:root {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: inherit;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+#header-logo {
+    margin-left: 15px;
+}
+
+img {
+    height: 3rem;
+}
+
+#header-navigation {
+    display: inline-flex;
+    direction: rtl;
+    align-items: center;
+    width: 100%;
+}
+
+#header-navigation a {
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(93, 101, 119);
+}
+
+section {
+    padding-top: 50px;
+}
+
+h1 {
+    color: rgb(87, 85, 224);
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 16px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(79, 40, 187);
+}
+
+#location-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#location-form label {
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(79, 40, 187);
+}
+
+#request-button {
+    width: 15%;
+    height: 35px;
+    margin: 25px auto 25px auto;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    font-weight: 900;
+    color: whitesmoke;
+    background-color: rgb(79, 40, 187);
+}
+
+.location-input-section {
+    background-image: url("../Content/Mountain.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+    padding-top: 5px;
+}
+
+.response-field {
+    width: 100%;
+}
+
+#weather-table {
+    padding: 30px;
+    box-shadow: 0 2px 4px 0 rgb(37 37 35 / 50%);
+    text-align: left;
+}
+
+#weather-logo {
+    display: flex;
+    justify-content: left;
+    padding-top: 16px;
+}
+
+
+/* hidden */
+
+.hidden-table {
+    display: none;
+}
+
+.weather-table-response {
+    color: blue;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 25%;
+}
+
+#city-location {
+    text-align: left;
+    font-size: 1.5em;
+    font-size: 1.25em;
+}
+
+.titleUppercase {
+    color: rgb(43, 172, 54);
+    font-weight: bolder;
+}
+
+#location-input {
+    height: 30px;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(79, 40, 187);
+    border-radius: 5px;
+}
+
+#locations {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: left;
+    height: 100%;
+    box-shadow: 0 2px 4px 0 rgb(37 37 35 / 50%);
+}
+
+#locations h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+    line-height: 0.8;
+}
+
+#locations h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75em;
+}
+
+.location-response-information {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+.locationLogo {
+    width: 3rem;
+    margin: auto;
+}
